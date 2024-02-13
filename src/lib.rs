@@ -109,6 +109,16 @@ impl BigInt {
         }
     }
 
+    fn mul(&self, b: &BigInt) -> BigInt {
+        // TODO: NOT FINISHED!
+        BigInt::new()
+    }
+
+    fn div(&self, b: &BigInt) -> BigInt {
+        // TODO: NOT FINISHED!
+        BigInt::new()
+    }
+
     // Helper methods
     fn cmp_abs(&self, other: &BigInt) -> Ordering {
         match self.digits.len().cmp(&other.digits.len()) {
